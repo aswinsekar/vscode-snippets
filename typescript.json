@@ -1,0 +1,38 @@
+{
+    "useState()": {
+        // Source - https://github.com/antmdvs/vscode-react-hooks-snippets/blob/master/snippets/snippets.json
+        "prefix": "us",
+        "body": [
+            "const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState($2);",
+            "$0"
+        ],
+        "description": "useState()"
+    },
+    "useState(true)": {
+        // Source - https://github.com/antmdvs/vscode-react-hooks-snippets/blob/master/snippets/snippets.json
+        "prefix": "ust",
+        "body": [
+            "const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState(true);",
+            "$0"
+        ],
+        "description": "useState(true)"
+    },
+    "useState(false)": {
+        // Source - https://github.com/antmdvs/vscode-react-hooks-snippets/blob/master/snippets/snippets.json
+        "prefix": "usf",
+        "body": [
+            "const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState(false);",
+            "$0"
+        ],
+        "description": "useState(false)"
+    },
+    "useState(null)": {
+        // Source - https://github.com/antmdvs/vscode-react-hooks-snippets/blob/master/snippets/snippets.json
+        "prefix": "usn",
+        "body": [
+            "const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState(null);",
+            "$0"
+        ],
+        "description": "useState(null)"
+    }
+}
